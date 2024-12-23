@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Blog Post</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Add a New Blog Post</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form method="POST" action="code.php" id="blog-form">
+                <label for="title">Post Title:</label>
+                <input type="text" id="title" name="title" placeholder="Enter post title" required>
+
+                <label for="author">Author Name:</label>
+                <input type="text" id="author" name="author" placeholder="Enter author name" required>
+
+                <label for="content">Post Content:</label>
+                <textarea id="content" name="content" rows="5" placeholder="Write your blog content here..." required></textarea>
+
+                <button type="submit" name="post" class="submit-btn">Add Post</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Blog. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    margin: 2rem 0;
+}
+
+.blog-post {
+    background: #ffffff;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.blog-post h2 {
+    margin: 0 0 10px;
+    font-size: 1.8rem;
+    color: #35424a;
+}
+
+.meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffffff;
+    background: #35424a;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.read-more:hover {
+    background: #506882;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+
+/* post */
+form {
+    height: 30em;
+    background: #ffffff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form .submit-btn {
+    display: inline-block;
+    background: #35424a;
+    color: #ffffff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form .submit-btn:hover {
+    background: #506882;
+}
