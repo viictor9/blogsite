@@ -46,7 +46,6 @@ $query_run = mysqli_query($connection, $query);
             <h2><?php echo $row['title']; ?></h2>
             <p class="meta">Published on <strong><?php echo $row['date']; ?></strong> by <strong><?php echo $row['author']; ?></strong></p>
                 <p><?php echo $row['content']; ?></p>
-                <a href="#" class="read-more">Read More →</a>
             </section>
 
         </div>
